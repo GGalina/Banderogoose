@@ -128,17 +128,12 @@ header {
     width: 280px;
 }
 .victory-bgd {
-    width: 1170px;
     padding: 72px 0px;
     background: linear-gradient(270.14deg, #B7E5FF 0.13%, #FCFEFF 99.89%);
     margin-bottom: 72px;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.victory-footer {
-    display: flex;
-    justify-content: center;
 }
 .victory-title {
     font-weight: 600;
@@ -247,4 +242,34 @@ header {
 .modal-active {
     opacity: 1;
     pointer-events: all;
+}
+/* Scroll for For Webkit (Chrome and Safari) */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background: #005BBB;
+    border-radius: 6px;
+}
+::-webkit-scrollbar-track:hover {
+    background: #B7E5FF;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #074281;
+}
+
+/* Scroll for For Firefox */
+scrollbar {
+    width: 12px;
+}
+thumb {
+    background: #005BBB;
+    border-radius: 6px;
+}
+scrollbar:hover {
+    background: #B7E5FF;
+}
+thumb:hover {
+    background: #074281;
 }
